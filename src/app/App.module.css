@@ -1,3 +1,10 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
   background-image: url('https://media.istockphoto.com/photos/the-arrangement-of-red-plastic-cups-for-game-of-beer-pong-picture-id1223621136?b=1&k=20&m=1223621136&s=170667a&w=0&h=LwA0jEwvBXBw_1W1dApb31tDj4s2QUGs1HxeS0O-gA4=');
   background-repeat: no-repeat;
@@ -6,27 +13,25 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 1fr 1fr;
   height: 100vh;
   place-items: center;
 }
 
-.title {
-  color: rgb(216 216 216);
-  text-transform: uppercase;
-}
-
 .form {
   display: grid;
-  gap: 0.5rem;
+  row-gap: 0.5rem;
 }
 
 .card {
+  display: grid;
+  gap: 1rem;
+  grid-template-rows: 30% 1fr;
   background: rgb(128 128 128 / 38.6%);
-  padding: 1rem;
   border-radius: 10px;
-
-  /* box-shadow: 10px 5px 5px rgb(213, 213, 213); */
+  width: 50%;
+  height: 50%;
+  place-items: center;
+  overflow: hidden;
 }
 
 .submit:hover {
