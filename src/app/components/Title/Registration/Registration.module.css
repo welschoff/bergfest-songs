@@ -1,0 +1,17 @@
+.form {
+  display: grid;
+  row-gap: 0.5rem;
+}
+
+.submit {
+  transition: 0.5s;
+}
+
+.submit:hover {
+  background-color: rgb(196 27 27);
+}
+
+.form input {
+  border-radius: 1rem;
+  border: none;
+}
