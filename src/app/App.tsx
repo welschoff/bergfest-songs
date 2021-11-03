@@ -6,7 +6,7 @@ function App(): JSX.Element {
   return (
     <main className={styles.container}>
       <div className={styles.card}>
-        <Title />
+        <Title text="Bergfest" />
         <form className={styles.form}>
           <input type="text" placeholder="First name" />
           <input type="text" placeholder="Last name" />
