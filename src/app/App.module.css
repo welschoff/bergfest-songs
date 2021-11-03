@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url('https://media.istockphoto.com/photos/the-arrangement-of-red-plastic-cups-for-game-of-beer-pong-picture-id1223621136?b=1&k=20&m=1223621136&s=170667a&w=0&h=LwA0jEwvBXBw_1W1dApb31tDj4s2QUGs1HxeS0O-gA4=');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+.form {
+  display: grid;
+  row-gap: 0.5rem;
+}
+
+.card {
+  display: grid;
+  gap: 1rem;
+  grid-template-rows: 30% 1fr;
+  background: rgb(128 128 128 / 38.6%);
+  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+  place-items: center;
+  overflow: hidden;
+}
+
+.submit:hover {
+  background-color: rgb(196 27 27);
+}
