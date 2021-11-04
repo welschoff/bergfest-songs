@@ -17,16 +17,6 @@ body {
   place-items: center;
 }
 
-.form {
-  display: grid;
-  row-gap: 0.5rem;
-}
-
-.form input {
-  border-radius: 1rem;
-  border: none;
-}
-
 .card {
   display: grid;
   grid-template-rows: 30% 1fr;
@@ -36,12 +26,4 @@ body {
   height: 50%;
   place-items: center;
   overflow: hidden;
-}
-
-.submit {
-  transition: 0.5s;
-}
-
-.submit:hover {
-  background-color: rgb(196 27 27);
 }
